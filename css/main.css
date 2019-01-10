@@ -1,7 +1,21 @@
 html {
-  font: sans-serif;
+  font-family: : sans-serif;
+  background-color: #e2e2e2;
 }
 
 .img-flex {
   max-width: 100%;
+}
+
+body {
+  margin: 2rem;
+}
+
+.btn {
+  background-color: #555;
+  text-decoration-color: white;
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-top: .50em;
+  padding-bottom: .50em;
 }
