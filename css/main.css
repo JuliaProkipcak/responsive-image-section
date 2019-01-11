@@ -26,24 +26,40 @@ body {
   background-color: #555;
   text-decoration: none;
   color: white;
-  padding-left: .75em;
-  padding-right: .75em;
-  padding-top: .50em;
-  padding-bottom: .50em;
+  padding: .5em .75em;
 }
 
 a:hover {
   background-color: #000;
 }
 
-img {
+.img-flex {
+  padding-top: 2rem;
 }
 
 h2 {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 25em) {
+
+
+
+}
 @media only screen and (min-width: 38em) {
+  .text {
+    width: 40%;
+    display: inline;
+  }
+
+  .flex-container {
+    flex-wrap: nowrap;
+  }
+
+  .img-flex {
+    width: 40%;
+    display: inline;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -56,8 +72,12 @@ h2 {
     flex-wrap: nowrap;
   }
 
-  img {
+  .img-flex {
     width: 40%;
     display: inline;
   }
+}
+
+@media only screen and (min-width: 90em) {
+
 }
