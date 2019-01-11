@@ -4,9 +4,9 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
@@ -19,14 +19,16 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: 0;
 }
+
 
 .btn {
   background-color: #555;
   text-decoration: none;
   color: white;
   padding: .5em .75em;
+  border-radius: 4px;
 }
 
 a:hover {
@@ -37,8 +39,8 @@ a:hover {
   padding-top: 2rem;
 }
 
-h2 {
-  text-decoration: none;
+.text {
+  padding-left: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -49,7 +51,7 @@ h2 {
 @media only screen and (min-width: 38em) {
   .text {
     width: 40%;
-    display: inline;
+    display: inline-block;
   }
 
   .flex-container {
@@ -58,14 +60,14 @@ h2 {
 
   .img-flex {
     width: 40%;
-    display: inline;
+    display: inline-block;
   }
 }
 
 @media only screen and (min-width: 60em) {
   .text {
     width: 40%;
-    display: inline;
+    display: inline-block;
   }
 
   .flex-container {
@@ -74,7 +76,7 @@ h2 {
 
   .img-flex {
     width: 40%;
-    display: inline;
+    display: inline-block;
   }
 }
 
